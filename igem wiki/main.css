@@ -1,0 +1,455 @@
+body, p, ul, li, h1, h2, a, button {
+	margin: 0;
+	padding: 0;
+	font-family: 'Song Myung', serif;
+}
+h1 {
+	font-size: 70px;
+}
+.dropdown-menu{
+background-color: white;
+}
+.dropdown-item, .dropdown-item:visited{
+color: black;
+}
+.dropdown-item:hover, .dropdown-item.active, .dropdown-item:active{
+color: blue;
+background-color: white;
+}
+#footer {
+	text-align: center;
+	font-size: 18px;
+	padding: 10px 0px;
+	margin: 0px;
+	background-color: black;
+	color: white;
+	width: 100%;
+	float: left;
+}
+#logo{
+	align-content: center;
+}
+.navig {
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.navig a:hover {
+	background-color: #174f5e;
+	color: white;
+	text-shadow: 3px 3px 5px black;
+	text-decoration: none;
+}
+
+#nav {
+	width:100%;
+	padding: 20px 0px;
+	position: fixed;
+	top: 0;
+	background: linear-gradient(to right, #174f5e, #add8b2);
+	z-index: 60;
+	box-shadow: 10px 10px 50px #232;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+
+}
+
+li a {
+	padding: 38px 35px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	transition-duration: 0.2s;
+}
+
+#menubar, #phonenavlinks{
+	display: none;
+}
+
+#eventmenu {
+	position: relative;
+}
+
+#dropdown {
+	position: absolute;
+	background: #174f5e;
+	width: 200%;
+	padding: 20px;
+	margin-top: 30px;
+	display: none;
+}
+#eventmenu:hover a {
+	background-color: #174f5e;
+}
+#dropdown a {
+	font-size: 20px;
+	display: block;
+	padding: 10px 0px;
+}
+#myCarousel {
+	width: 100%;
+	margin: auto;
+	padding-top: 600px;
+	padding-bottom: 50px;
+	position: relative;
+}
+#abstract {
+	font-size: 20px;
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-right: 150px;
+	padding-left: 150px;
+	background-color: #174f5e;
+	color: white;
+}
+#abstract h1 {
+	text-align: center;
+	padding-bottom: 50px;
+}	
+.common-p-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+}
+#mainpd h1{
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#mainpd p {
+	text-align: left;
+	padding-bottom: 50px;
+	padding-right: 150px;
+	padding-left: 150px;
+	font-size: 20px;
+}
+#mainhp {
+	background-color: #174f5e;
+	color: white;
+	padding-top: 50px;
+}
+#mainhp h1{
+	text-align: center;
+	padding-bottom: 50px;
+}
+#mainhp p {
+	text-align: left;
+	padding-bottom: 50px;
+	padding-right: 150px;
+	padding-left: 150px;
+	font-size: 20px;
+}
+#mainmodeling h1 {
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#mainmodeling p {
+	text-align: left;
+	padding-bottom: 50px;
+	padding-right: 150px;
+	padding-left: 150px;
+	font-size: 20px;
+}
+
+.btn {
+	transition-duration: 0.2s;
+	padding: 0;
+	padding-bottom: 50px;
+	
+}
+/*
+.btn a {
+	color: white;
+}
+*/
+.btn:hover {
+	transform: scale(1.03);
+	box-shadow: 6px 6px 9px grey;
+	background-color: #008BB4;
+}
+
+.btn:hover a {
+	text-decoration: none;
+}
+.btn-info {
+	padding: 30px;
+	font-size: 20px;
+}
+.btn a {
+	color: white;
+}
+/***************************************HP******************************************/
+.hpbody h1 {
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 100px;
+	background-color: #85b49c;
+	color: white;
+}
+.hpbody p {
+	font-size: 20px;
+}
+#hpoverview h2 {
+	text-align: center;
+	padding-bottom: 80px;
+	background-color: #85b49c;
+	color: white;
+}
+#hpresearch h2 {
+	text-align: left;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#hpresearch p {
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 860px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+#bjmeetup h2 {
+	text-align: right;
+	padding-top: 50px;
+	padding-right: 200px;
+	padding-bottom: 50px;
+	background-color: #85b49c;
+	color: white;
+}
+#bjmeetup p {
+	text-align: left;
+	padding-right: 50px;
+	padding-left: 860px;
+	background-color: #85b49c;
+	color: white;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+#hpoverview p {
+	text-align: left;
+	padding-left: 150px;
+	padding-right: 150px;
+	background-color: #85b49c;
+	color: white;
+	padding-bottom: 80px;
+	font-size: 20px;
+}
+#publicengagement h2 {
+	text-align: left;
+	padding-left: 120px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#publicengagement p {
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 900px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+#communityservice h2 {
+	text-align: right;
+	padding-top: 50px;
+	padding-right: 200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #85b49c;
+	color: white;
+}
+#communityservice p {
+	text-align: left;
+	padding-right: 50px;
+	padding-left: 900px;
+	background-color: #85b49c;
+	color: white;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+#enterpreneurship h2 {
+	text-align: left;
+	padding: 50px 0px 50px 200px;
+}
+#enterpreneurship p {
+	text-align: left;
+	padding: 0px 900px 20px 50px;
+	font-size: 20px;
+}
+#circle {
+	background-color: lightblue;
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	border: 3px solid black;
+	border-radius: 100%;
+	z-index: 99;
+	left: 50%;
+	margin-left: -22px;
+	top: 610px;
+}
+#line {
+	background-color: #444;
+	width: 4px;
+	height: 610px;
+	position: fixed;
+	top:0;
+	z-index: 50;
+	left: 50%;
+	margin-left: -6px;
+}
+#footer {
+	text-align: center;
+	font-size: 18px;
+	padding: 10px 0px;
+	margin: 0px;
+	background-color: #353836;
+	color: white;
+	width: 100%;
+	float: left;
+}
+ .teambody {
+ 	font-size: 18px;
+ }
+ #teamintro h1 {
+ 	padding: 200px 0px;
+ 	text-align: center;
+ }
+ #teamintro p {
+ 	text-align: left;
+ 	padding: 100px 150px 50px 150px;
+ }
+.panel-bodyteammember {
+	padding: 50px;
+}
+
+/************************************Team*****************************************/
+.row1 {
+	padding: 50px 100px 200px 100px;
+}
+
+#juehan p {
+
+}
+/************************************PD*******************************************/
+#description h2, #notebook h2, #protocols h2, #result h2, #design h2 {
+	text-align: center;
+	padding: 50px 50px 50px 50px;
+}
+#description p, #notebook p, #protocols p, #result p, #design p{
+	text-align: center;
+	padding: 50px 200px 50px 200px;
+}
+#description h1 {
+	text-align: center;
+	padding-bottom: 100px;
+	padding-top: 150px;
+}
+#description, #notebook, #result{
+	background-color: #639488;
+	color: white;
+}
+/**************************************Safety************************************/
+#safety h1 {
+	color: white;
+	text-align: center;
+	padding: 150px 0px 50px 0px;
+	background-color: #add8b2;
+}
+#basicsafety {
+	background-color: #add8b2;
+	padding-top: 50px;
+	color: white;
+}
+#basicsafety h2, #projectsafety h2{
+	padding: 50px;
+	text-align: center;
+}
+#basicsafety p, #projectsafety p {
+	padding: 0px 150px 50px 150px;
+	font-size: 20px;
+}
+#basicsafety h3, #projectsafety h3 {
+	padding: 0px 150px 50px 150px;
+}
+
+.paragraph-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.left-part{
+	width: 50%;
+	height: auto;
+}
+.right-part {
+	width: 50%;
+	height: 300px;
+}
+.safety1-img{
+	width: 50px;
+	height: 50px;
+}
+
+/*********************************************Modeling***********************************/
+#modelingoverview h1 {
+	text-align: center;
+	padding-top: 150px;
+}
+/****************************************notebook**************************************/
+#notebookpara {
+	padding-top: 150px;
+}
+#notebookpara h1 {
+	text-align: center;
+	padding-bottom: 50px;
+}
+#notebookpara p {
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 100px;
+	font-size: 20px;
+}
+.notebookbody {
+	background-color: #f5fef9;
+}
+/****************************************phone css***************************************/
+@media only screen and (max-width: 768px) {
+	.navig2{
+		display: block;
+		padding: 8px 0px;
+		list-style-type: none;
+	}
+
+	.navig2 a{
+		font-size: 18px;
+		text-decoration: none;
+	}
+	#dropdown2 a{
+		padding: 4px 0px;
+		margin-left: 25px;
+		color: white;
+		font-size: 15px;
+		display: block;
+	}
+
+	#dropdown2 {
+		display: none;
+	}
+}
+
+.safety2-img{
+	width: 48px;
+	height: 48px;
+}
+
+.img1-bg{
+	background-image: url("./photos/safefy1")
+}
